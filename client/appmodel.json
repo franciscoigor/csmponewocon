@@ -48,7 +48,10 @@
     "comment": "",
     "properties": {
       "name": {
-        "type": "string"
+        "type": "string",
+        "update": {
+          "type": "none"
+        }
       },
       "date": {
         "type": "string"
