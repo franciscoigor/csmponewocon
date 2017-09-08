@@ -42,5 +42,17 @@
         }
       }
     }
+  },
+  "blank": {
+    "type": "object",
+    "comment": "",
+    "properties": {
+      "name": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      }
+    }
   }
 }
