@@ -3,8 +3,9 @@ function app_blank($scope, app) {
     'use strict';
     app.init($scope);
     $scope.data.name="Jona";
-    
-    var result = app.call("blank.test",null);
+    var noLoading;
+    var textResult;
+    app.call("blank.test",null,noLoading,textResult);
     
     
 }
