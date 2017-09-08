@@ -4,5 +4,10 @@
   "defaultLayout": "phone-portrait",
   "previewToken": "6d785f34",
   "uiCommonVersion": "5.1.2",
-  "creatorId": "gdlfravi"
+  "creatorId": "gdlfravi",
+  "id": "csmponewocon",
+  "previewImageURL": "/previews/6d785f34-csmponewocon/app/blank.png",
+  "isVersioned": true,
+  "githubRepo": "https://github.com/franciscoigor/csmponewocon",
+  "creatorName": "Francisco Aviles"
 }
