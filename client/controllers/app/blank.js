@@ -4,9 +4,7 @@ function app_blank($scope, app) {
     app.init($scope);
     $scope.data.name="Jona";
     
-    app.call("blank.test",null,function(data){
-        $scope.data = data;
-    });
+    var result = app.call("blank.test",null);
     
     
 }
