@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "comment": "",
+  "properties": {
+    "name": {
+      "type": "string",
+      "update": {
+        "type": "none"
+      }
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "connect": [
+    {
+      "match": [],
+      "event": "blanktestevent"
+    }
+  ]
+}
