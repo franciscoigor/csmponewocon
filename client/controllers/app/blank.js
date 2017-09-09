@@ -5,7 +5,7 @@ function app_blank($scope, app) {
     $scope.data.name="Jona";
     var noLoading;
     var textResult;
-    app.call("blank.test",null,noLoading,textResult);
+    $injector.get('apiService').request(modelMethod, callParams);
     
     
 }
