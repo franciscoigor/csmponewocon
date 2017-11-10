@@ -5,7 +5,7 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
-    var algo = function(){
+    $scope.algo = function(){
         debugger;
       app.call('blank.test',{name:'Jona'})  
     };
