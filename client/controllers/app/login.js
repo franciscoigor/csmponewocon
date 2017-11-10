@@ -5,6 +5,10 @@ function app_login($scope, app, $q) {
     if (!$scope.data) {
         $scope.data = {};
     }
+    var algo = function(){
+        debugger;
+      app.call('blank.test',{name:'Jona'})  
+    };
     var checkSupport = function () {
         var deferred = $q.defer();
         if (typeof cordova !== 'undefined' && window.plugins && window.plugins.touchid) {
