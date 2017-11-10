@@ -6,8 +6,9 @@
   "uiCommonVersion": "5.1.2",
   "creatorId": "gdlfravi",
   "id": "csmponewocon",
-  "previewImageURL": "/previews/6d785f34-csmponewocon/app/blank.png",
+  "previewImageURL": "/previews/6d785f34-csmponewocon/app/login.png",
   "isVersioned": true,
   "githubRepo": "https://github.com/franciscoigor/csmponewocon",
-  "creatorName": "Francisco Aviles"
+  "creatorName": "Francisco Aviles",
+  "sdks": []
 }
